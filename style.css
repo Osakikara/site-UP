@@ -1051,6 +1051,7 @@ footer .menu1 a{
         transform: translate(-200px,-105px);
     }
     .list2{
+        display: none;
         position: absolute;
         background: url(img/listfooter2.png) no-repeat;
         width: 210px;
