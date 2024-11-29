@@ -558,16 +558,8 @@ footer .menu1 a{
 }
 
 @media screen and (min-width:360px) and (max-width:720px) {
-    html{
-
-        width: 100%;
-        max-width: 100%;
-        overflow-x: hidden;
-    }
     .container, section .conteiner{
         width: 100%;
-        max-width: 100%;
-        overflow-x:hidden;
     }
 
     /*---header---*/
