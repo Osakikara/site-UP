@@ -45,18 +45,18 @@ header .menu a{
 }
 .zagolovok{
     width: 50%;
-    text-align: left;
-    margin-left: 55px;
+    padding-left: 55px;
     font-size: 30px;
 }
-header .h11{
+header h1 {
     margin-top: 120px;
-    color: rgba(0, 204, 204, 1);
-}
-header h1{
-    text-align: left;
     font-family: Roboto-black;
 }
+header .h11{
+    color: rgba(0, 204, 204, 1);
+    font-family: Roboto-black;
+}
+
 .logo{
     background: url(img/logo.png) ;
     width: 130px;
@@ -271,26 +271,20 @@ header h1{
     margin-right: 0;
     display: flex;
 }
-.icon1{
-    background: url(img/icon.png) no-repeat;
+.icon {
     width: 50px;
     height: 50px;
     margin: 25px;
     padding-bottom: 50px;
+}
+.icon1{
+    background: url(img/icon.png) no-repeat;
 }
 .icon2{
     background: url(img/icon2.png) no-repeat;
-    width: 50px;
-    height: 50px;
-    margin: 25px;
-    padding-bottom: 50px;
 }
 .icon3{
     background: url(img/icon3.png) no-repeat;
-    width: 50px;
-    height: 50px;
-    margin: 25px;
-    padding-bottom: 50px;
 }
 .blocktextinskidki1{
     margin-top: 20px;
@@ -492,6 +486,7 @@ footer .menu1 a{
     height: 270px;
     transform: translate(1170px,-100px);
 }
+
 /*-----slider---*/
 .slider-container {
     width: 410px;
@@ -537,22 +532,15 @@ footer .menu1 a{
         margin-top: 50px;
     }
     .Download{
-        border-radius: 10px;
-        color: rgb(255, 255, 255);
         padding: 15px;
-        background-color: black;
-        font-family: Roboto-black;
         margin-left: 50px;
         margin-top: 15px;
     }
     .no-Download{
         margin-top: 15px;
-        font-family: Roboto-black;
     }
     .zagolovok{
-        width: 50%;
-        text-align: left;
-        margin-left: 55px;
+        width: 100%;
         font-size: 15px;
     }
     .fonlyudi{
@@ -577,26 +565,25 @@ footer .menu1 a{
     }
     /*----section1---*/
     .flex1{
-        display: flex;
         gap: 20px;
         justify-content: center;
-        margin: 0 auto;
     }
     .box11{
         width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .box11 > div{
         width: 50px;
         height: 50px;
         background-size: 100%;
-        margin: 20px;
         margin-top: 30px;
         margin-bottom: 30px;
-        transform: translateX(10px);
     }
     .zagolovok11{
         margin: 0 auto;
-        font-family: Roboto-black;
         font-size: 14px;
         text-align: center;
         width: 90px;
@@ -604,7 +591,6 @@ footer .menu1 a{
     .text11{
         margin: 0 auto;
         margin-top: 15px;
-        opacity: 60%;
         font-size: 12px;
         text-align: center;
         width: 90px;
@@ -623,9 +609,7 @@ footer .menu1 a{
         margin: 0 auto;
         margin-top: 35px;
         width: 340px;
-        background-color: rgba(245, 246, 247, 1);
         height: 370px;
-        border-radius: 50px;
         display: flex;
         gap: 80px;
     }
@@ -660,7 +644,6 @@ footer .menu1 a{
         transform: translateX(-7px) translateY(-8px);
     }
     .zagolovok12{
-        font-family: Roboto-black;
         font-size: 20px;
         line-height: 30px;
     }
@@ -673,18 +656,14 @@ footer .menu1 a{
         transform: translateX(380px) translateY(480px);
     }
     .text12{
-        font-family: Roboto-regular;
         font-size: 14px;
         margin-bottom: 10px;
-        color: rgba(87, 109, 129, 1);
         margin-top: 10px;
     }
     .text13{
-        font-family: Roboto-regular;
         font-size: 12px;
         margin-top: 15px;
         line-height: 25px;
-        color: rgba(87, 109, 129, 1);
     }
     .tochki{
         background: url(img/Framecopi.png);
@@ -702,7 +681,6 @@ footer .menu1 a{
         transform: translateY(10px);
     }
     .section3{
-        background-color: rgba(245, 246, 247, 1);
         width: 100%;
         height: 840px;
         margin-top: 20px;
@@ -722,37 +700,28 @@ footer .menu1 a{
     .blocktext2{
         width: 280px;
         height: 160px;
-        background-color: white;
-        box-shadow: 0px 0px 25px rgba(149, 149, 149, 0.166);
         margin: 20px;
         border-radius: 10px;
         margin-left: 50px;
-        display: flex;
     }
     .blocktext3{
         width: 280px;
         height: 160px;
-        background-color: white;
-        box-shadow: 0px 0px 25px rgba(149, 149, 149, 0.166);
         margin: 20px;
         margin-left: 70px;
         border-radius: 10px;
         margin-right: 0;
-        display: flex;
     }
     .blocktextinskidki1{
         margin-top: 20px;
         width: 180px;
     }
     .h3inskidki{
-        font-family: Roboto-black;
         font-size: 18px;
         margin-top: 10px;
         margin-bottom: 15px;
     }
     .textinskidki{
-        font-family: Roboto-regular;
-        opacity: 50%;
         line-height: 18px;
         margin-top: 10px;
         font-size: 14px;
@@ -761,12 +730,6 @@ footer .menu1 a{
     /*----section4---*/
     .bubletea1{
         display: none;
-        background: url(img/image5.png) no-repeat;
-        width: 100px;
-        height: 200px;
-        background-size: 0%;
-        margin-top: 120px;
-        margin-left: 70px;
     }
     .blocktext10{
         margin-top: 20px;
@@ -808,23 +771,11 @@ footer .menu1 a{
     .forma1{
         width: 250px;
         height: 55px;
-        text-align: center;
-        font-family: Roboto-black;
-        border: none;
-        background-color: rgba(240, 240, 242, 1);
-        color: rgba(0, 0, 0, 0.35);
         font-size: 14px;
-        border-radius: 10px;
     }
     .forma2{
-        background-color: rgba(0, 204, 204, 1);
         width: 80px;
         height: 55px;
-        margin-left: 15px;
-        border-radius: 15px;
-        text-align: center;
-        font-family: Roboto-black;
-        border: none;
         font-size: 14px;
     }
     .imgforma{
@@ -834,7 +785,6 @@ footer .menu1 a{
         height: 82px;
     }
     .textforma{
-        font-family: Roboto-black;
         width: 350px;
         font-size: 32px;
         text-align: center;
@@ -850,8 +800,6 @@ footer .menu1 a{
     .flex3 > div{
         width: 180px;
         height: 60px;
-        background-color: rgba(36, 12, 57, 1);
-        border-radius: 10px;
     }
     .flex3 > div > div{
         width: 120px;
@@ -867,21 +815,13 @@ footer .menu1 a{
         background-size: 100%;
     }
     /*----footer--*/
-    footer{
-        background-color: rgba(15, 35, 54, 1);
-    }
     .logoalt{
         margin-left: 40px;
         background-size: 100%;
         margin-right: 20px;
         margin-top: 11px;
     }
-    footer ul {
-        display: flex;
-    }
     footer nav {
-        display: flex;
-        justify-content: space-between;
         width: 350px;
     }
     footer .conteiner {
@@ -891,19 +831,13 @@ footer .menu1 a{
         gap: 1px;
         margin-right: 1px;
     }
-    footer .menu a{
-        font-family: Roboto-black;
-        color: rgba(0, 204, 204, 1);
-    }
     .no-Download1{
         margin-top: 35px;
-        font-family: Roboto-black;
         font-size: 12px;
         width: 60px;
     }
     .no-Download2{
         margin-top: 15px;
-        font-family: Roboto-regular;
         font-size: 12px;
         width: 110px;
     }
@@ -912,14 +846,7 @@ footer .menu1 a{
         margin-right: 15px;
         margin-left: 40px;
     }
-    footer .menu1 a{
-        color: rgba(255, 255, 255, 0.7);
-    }
     .list1{
-        position: absolute;
-        background: url(img/listfooter1.png) no-repeat;
-        width: 280px;
-        height: 310px;
         transform: translate(-200px,-105px);
     }
     .list2{
@@ -933,29 +860,7 @@ footer .menu1 a{
         margin-left: 30px;
     }
     .slider {
-        display: flex;
-        width: calc(100% * 2);
-        transition: transform 0.5s ease-in-out;
         height: 325px;
-    }
-    .dots {
-        margin: 0;
-        width: 100px;
-        height: 10px;
-        display: flex;
-        justify-content: center;
-        margin-top: 20px;
-        gap: 10px;
-    }
-    .dot {
-        width: 40px;
-        height: 10px;
-        background-color: #ccc;
-        border-radius: 25px;
-        cursor: pointer;
-    }
-    .dot.active {
-        background-color: rgba(0, 204, 204, 1);
     }
 }
                                                                 /*----hamburger--*/
