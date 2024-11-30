@@ -11,7 +11,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Roboto-regular;
-
 }
 ul {
     list-style: none;
@@ -23,8 +22,6 @@ a {
     margin: 0 auto;
     width: 1210px;
 }
-
-
 /*---header-start---*/
 header{
     background-color: rgba(245, 246, 247, 1);
@@ -91,9 +88,7 @@ header h1{
     justify-content: space-between;
     gap: 10px;
     margin-left: 55px;
-    font-family: Roboto-black;
-    
-    
+    font-family: Roboto-black; 
 }
 .vector1{
     background: url(img/Vector1.png) no-repeat;
@@ -119,9 +114,6 @@ header h1{
 }
 /*-------header-end-----*/
 
-
-
-
 /*---section1-start----*/
 .flex1{
     display: flex;
@@ -131,7 +123,14 @@ header h1{
 }
 .box11{
     width: 300px;
-    
+}
+.box11 > div{
+    width: 100px;
+    height: 100px;
+    background-size: 100%;
+    margin: 20px;
+    margin-top: 100px;
+    margin-bottom: 30px; 
 }
 .zagolovok11{
     font-family: Roboto-black;
@@ -143,35 +142,14 @@ header h1{
 }
 .iconka11{
     background: url(img/Group.png);
-    width: 100px;
-    height: 100px;
-    background-size: 100%;
-    margin: 20px;
-    margin-top: 100px;
-    margin-bottom: 30px;
 }
 .iconka12{
     background: url(img/Frame.png);
-    width: 100px;
-    height: 100px;
-    background-size: 100%;
-    margin: 20px;
-    margin-top: 100px;
-    margin-bottom: 30px;
 }
 .iconka13{
     background: url(img/Frame1.png);
-    width: 100px;
-    height: 100px;
-    background-size: 100%;
-    margin: 20px;
-    margin-top: 100px;
-    margin-bottom: 30px;
 }
-
 /*----section1-end-----*/
-
-
 
 /*----section2-start---*/
 .rectangle1{
@@ -196,7 +174,6 @@ header h1{
     margin-top: 110px;
     width: 410px;
     height: 550px;
-
 }
 .telefon{
     position: absolute;
@@ -374,7 +351,6 @@ header h1{
 /*----section4-end---*/
 
 /*----section5-start---*/
-
 .boxforma{
     margin: 0 auto;
     margin-top: 150px;
@@ -414,7 +390,6 @@ header h1{
     background: url(img/magazin.png);
     width: 128px;
     height: 82px;
-
 }
 .textforma{
     font-family: Roboto-black;
@@ -430,18 +405,13 @@ header h1{
     gap: 25px;
     margin-top: 20px;
 }
-.appstore{
+.flex3 > div {
     width: 180px;
     height: 60px;
     background-color: rgba(36, 12, 57, 1);
     border-radius: 10px;
 }
-.googleplay{
-    width: 180px;
-    height: 60px;
-    background-color: rgba(36, 12, 57, 1);
-    border-radius: 10px;
-}
+
 .imgApp{
     background: url(img/appstore.png) no-repeat;
     width: 120px;
@@ -462,10 +432,9 @@ header h1{
 
 footer{
     background-color: rgba(15, 35, 54, 1);
-
 }
 .logoalt{
-    background: url(img/logoalt.png) ;
+    background: url(img/logoalt.png) no-repeat;
     width: 130px;
     height: 49px;
     margin-left: 140px;
@@ -523,9 +492,7 @@ footer .menu1 a{
     height: 270px;
     transform: translate(1170px,-100px);
 }
-
 /*-----slider---*/
-
 .slider-container {
     width: 410px;
     overflow: hidden;
@@ -556,48 +523,18 @@ footer .menu1 a{
 .dot.active {
     background-color: rgba(0, 204, 204, 1);
 }
-
+                                                             /*---media---*/
 @media screen and (min-width:360px) and (max-width:720px) {
-    .container, section .conteiner{
+    .conteiner, section .conteiner{
         width: 100%;
     }
-
     /*---header---*/
-    header{
-        background-color: rgba(245, 246, 247, 1);
-    }
-    header ul {
-        display: flex;
-    }
-    header nav {
-        display: flex;
-        justify-content: left;
-    }
     header .conteiner {
         padding: 35px 0 203px 0;
     }
     header .menu {
         gap: 10px;
         margin-top: 50px;
-    }
-    header .menu a{
-        font-family: Roboto-black;
-        color: black
-    }
-    header .h11{
-        margin-top: 120px;
-        color: rgba(0, 204, 204, 1);
-    }
-    header h1{
-        text-align: left;
-        font-family: Roboto-black;
-    }
-    .logo{
-        background: url(img/logo.png) ;
-        width: 130px;
-        height: 47px;
-        margin-left: 50px;
-        background-size: 100%;
     }
     .Download{
         border-radius: 10px;
@@ -611,7 +548,6 @@ footer .menu1 a{
     .no-Download{
         margin-top: 15px;
         font-family: Roboto-black;
-        
     }
     .zagolovok{
         width: 50%;
@@ -636,20 +572,9 @@ footer .menu1 a{
     }
     .button1{
         margin-top: 30px;
-        color:black;
-        background-color: rgba(0, 204, 204, 1);
         padding: 15px;
-        width: 200px;
-        border-radius: 10px;
-        box-shadow: 0px 0px 10px  rgba(0, 204, 204, 1) ;
-        display: flex;
-        justify-content: space-between;
-        gap: 10px;
-        margin-left: 55px;
-        font-family: Roboto-black;
         margin-bottom:50px ;
     }
-
     /*----section1---*/
     .flex1{
         display: flex;
@@ -659,7 +584,15 @@ footer .menu1 a{
     }
     .box11{
         width: 300px;
-        
+    }
+    .box11 > div{
+        width: 50px;
+        height: 50px;
+        background-size: 100%;
+        margin: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        transform: translateX(10px);
     }
     .zagolovok11{
         margin: 0 auto;
@@ -675,39 +608,16 @@ footer .menu1 a{
         font-size: 12px;
         text-align: center;
         width: 90px;
-
     }
     .iconka11{
         background: url(img/Group.png);
-        width: 50px;
-        height: 50px;
-        background-size: 100%;
-        margin: 20px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        transform: translateX(10px);
     }
     .iconka12{
         background: url(img/Frame.png);
-        width: 50px;
-        height: 50px;
-        background-size: 100%;
-        margin: 20px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        transform: translateX(10px);
     }
     .iconka13{
         background: url(img/Frame1.png);
-        width: 50px;
-        height: 50px;
-        background-size: 100%;
-        margin: 20px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        transform: translateX(10px);
     }
-
     /*----section2---*/
     .rectangle1{
         margin: 0 auto;
@@ -830,27 +740,6 @@ footer .menu1 a{
         margin-right: 0;
         display: flex;
     }
-    .icon1{
-        background: url(img/icon.png) no-repeat;
-        width: 50px;
-        height: 50px;
-        margin: 25px;
-        padding-bottom: 50px;
-    }
-    .icon2{
-        background: url(img/icon2.png) no-repeat;
-        width: 50px;
-        height: 50px;
-        margin: 25px;
-        padding-bottom: 50px;
-    }
-    .icon3{
-        background: url(img/icon3.png) no-repeat;
-        width: 50px;
-        height: 50px;
-        margin: 25px;
-        padding-bottom: 50px;
-    }
     .blocktextinskidki1{
         margin-top: 20px;
         width: 180px;
@@ -903,11 +792,6 @@ footer .menu1 a{
     }
     .chipsiki1{
         display: none;
-        position: absolute;
-        background: url(img/yagodi.png) no-repeat;
-        width: 300px;
-        height: 300px;
-        transform: translateX(600px) translateY(480px);
     }
     .boxforma{
         margin: 0 auto;
@@ -948,7 +832,6 @@ footer .menu1 a{
         background: url(img/magazin.png);
         width: 128px;
         height: 82px;
-    
     }
     .textforma{
         font-family: Roboto-black;
@@ -964,42 +847,30 @@ footer .menu1 a{
         gap: 25px;
         margin-top: 20px;
     }
-    .appstore{
+    .flex3 > div{
         width: 180px;
         height: 60px;
         background-color: rgba(36, 12, 57, 1);
         border-radius: 10px;
     }
-    .googleplay{
-        width: 180px;
-        height: 60px;
-        background-color: rgba(36, 12, 57, 1);
-        border-radius: 10px;
-    }
-    .imgApp{
-        background: url(img/appstore.png) no-repeat;
+    .flex3 > div > div{
         width: 120px;
         height: 30px;
         margin: 0 auto;
         margin-top: 15px;
     }
+    .imgApp{
+        background: url(img/appstore.png) no-repeat;
+    }
     .imgGoogle{
         background: url(img/googleplay.png) no-repeat;
-        width: 125px;
-        height: 30px;
-        margin: 0 auto;
-        margin-top: 15px;
+        background-size: 100%;
     }
-
     /*----footer--*/
     footer{
         background-color: rgba(15, 35, 54, 1);
-        
     }
     .logoalt{
-        background: url(img/logoalt.png) no-repeat;
-        width: 130px;
-        height: 49px;
         margin-left: 40px;
         background-size: 100%;
         margin-right: 20px;
@@ -1053,14 +924,8 @@ footer .menu1 a{
     }
     .list2{
         display: none;
-        position: absolute;
-        background: url(img/listfooter2.png) no-repeat;
-        width: 210px;
-        height: 270px;
-        transform: translate(320px,-270px);
     }
-    /*----slider in adapt---*/
-    
+                                                                /*----slider in media---*/
     .slider-container {
         width: 410px;
         overflow: hidden;
@@ -1093,9 +958,7 @@ footer .menu1 a{
         background-color: rgba(0, 204, 204, 1);
     }
 }
-
-/*----hamburger--*/
-
+                                                                /*----hamburger--*/
 .hamburger{
     cursor: pointer;
     display: none;
@@ -1122,8 +985,7 @@ footer .menu1 a{
         display: block;
         margin: auto 10px;
         position: absolute;
-        transform: translate(300px,15px);
-
+        right: 50px;
     }
     header ul {
         display: none;
@@ -1132,8 +994,11 @@ footer .menu1 a{
         display: flex;
         flex-direction: column;
         align-items: center;
+        position: absolute;
+        background: #f5f6f7;
+        width: 100%;
+        top: 0;
+        margin: 0;
+        padding: 10px 0;
     }
 }
-
-
-
